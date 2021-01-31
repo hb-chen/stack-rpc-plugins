@@ -3,10 +3,10 @@ package handler
 import (
 	"net/http"
 
-	"github.com/stack-labs/stack-rpc"
 	"github.com/stack-labs/stack-rpc/api/handler"
 	"github.com/stack-labs/stack-rpc/api/handler/event"
 	"github.com/stack-labs/stack-rpc/api/router"
+	stack "github.com/stack-labs/stack-rpc/service"
 	"github.com/stack-labs/stack-rpc/util/errors"
 
 	// TODO: only import handler package

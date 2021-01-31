@@ -5,7 +5,6 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/stack-labs/stack-rpc"
 	ahandler "github.com/stack-labs/stack-rpc/api/handler"
 	aapi "github.com/stack-labs/stack-rpc/api/handler/api"
 	"github.com/stack-labs/stack-rpc/api/handler/event"
@@ -23,6 +22,7 @@ import (
 	"github.com/stack-labs/stack-rpc/api/server/acme"
 	"github.com/stack-labs/stack-rpc/api/server/acme/autocert"
 	httpapi "github.com/stack-labs/stack-rpc/api/server/http"
+	stack "github.com/stack-labs/stack-rpc/service"
 	"github.com/stack-labs/stack-rpc/util/log"
 
 	"github.com/stack-labs/stack-rpc-plugins/service/stackway/handler"

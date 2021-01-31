@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/stack-labs/stack-rpc"
 	"github.com/stack-labs/stack-rpc/client"
+	stack "github.com/stack-labs/stack-rpc/service"
 	"github.com/stack-labs/stack-rpc/util/errors"
 
 	"github.com/stack-labs/stack-rpc-plugins/service/stackway/helper"
